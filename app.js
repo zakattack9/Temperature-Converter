@@ -15,8 +15,8 @@ var convert = (startTemp, endTemp, increment) => {
 		startTemp += increment;
 		console.log(startTemp, endTemp, increment)
 
-		$('#table').append($(`
-		  <tr>
+		$('#table').append($(
+			`<tr>
 		    <td>${tableStart += increment}</td>
 		    <td>${toCelcius.toFixed(3)}</td>
 		  </tr>`));
