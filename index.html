@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Temperature Conversions</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h2>Fahrenheit to Celcius Converter</h2>
+	<table style="width: 30%">
+		<tr>
+		    <td>Start Temperature (F):</td>
+		    <td> <input type="number" id="startVal" value=""></td>
+		</tr>
+
+		<tr>
+		    <td>End Temperature (F):</td>
+		    <td> <input type="number" id="endVal" value=""></td>
+		</tr>
+
+		<tr>
+		    <td>Increment:</td>
+		    <td><input type="number" id="increment" value=""></td>
+		</tr>
+  </table>
+  <button>Calculate!</button>
+
+  <br/>
+  <br/>
+
+  <table id="table">
+	  <tr>
+	    <th>Fahrenheit</th>
+	    <th>Celcius</th> 
+	  </tr>
+	</table>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="app.js"></script>	
+</body>
+</html>

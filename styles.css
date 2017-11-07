@@ -1,0 +1,11 @@
+table {
+	width: 20%;
+}
+
+th {
+	text-align: left;
+}
+
+input {
+	outline: none;
+}
